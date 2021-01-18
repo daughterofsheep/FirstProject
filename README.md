@@ -8,6 +8,57 @@
     <link href="index.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    body {
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ color: black;
+}
+
+h1 {
+  color: #006400;
+ font-size: 300%;
+}
+
+h2 {
+ color: #006400;
+ text-transform: uppercase;
+ font-weight: 100;
+}
+
+img {
+ width: 100%;
+}
+
+
+footer {
+ margin-top: 70px;
+ background-color: #006400;
+ color: White;
+}
+
+footer p {
+ text-align: center;
+ padding-top: 15px;
+ padding-bottom: 15px;
+}
+
+#container {
+ width: 60%;
+ margin: auto;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+ #container {
+  width: 90%;
+ }
+
+ h1 {
+  font-size: 200%;
+ }
+
+}
     <div id="container">
      <header>
         <h1>How to make winter tea</h1>
